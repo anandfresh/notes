@@ -307,15 +307,6 @@ span{
 margin-right: 0px;
  
 }
-header{
-  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('./assets/bg.png');
-  
-  height: 100vh;
-  
-  background-position: center center;
-  position: relative;
-  
-}
 .nav-area{
   float: right;
   list-style: none;
