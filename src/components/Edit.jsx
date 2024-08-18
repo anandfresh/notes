@@ -25,13 +25,13 @@ const Edit = () => {
       if (Number(params.id) < data.length) {
           getData(Number(params.id));
       } else {
-          navigate('/notes');
+          navigate('/');
       }
   }, [params.id, data, navigate]);
     const handleSave=(params)=>{
        
        dispatch(edit({params,values:{title,content}}))
-       navigate('/notes')
+       navigate('/')
        console.log(title,content)
     }
     
